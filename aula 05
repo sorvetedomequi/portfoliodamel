@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do vincent" class="rounded-circle" width="150" height="150" srcset="">
+
+        <p>Olá, me chamo Vincent.</p>
+        <h1>Eu faço pinturas</h1>
+        <p>Minha especialidade é a pintura a óleo, com foco em paisagens, retratos e naturezas-mortas. Meus trabalhos são 
+            marcados por cores fortes, pinceladas visíveis e uma expressividade que busca capturar a emoção e a energia da cena.
+            Busco retratar a vida e a natureza de uma forma intensa e pessoal, usando a cor como a principal ferramenta para 
+            transmitir sentimentos.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-warning">pinturas a óleo</p>
+            <p class="badge bg-warning">paisagens</p>
+            <p class="badge bg-warning">retratos</p>
+            <p class="badge bg-warning">naturezas-mortas</p>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">A Casa Amarela - 1888</h5>
+                      <p class="card-text">Esta pintura é uma representação da casa onde eu morei em Arles. Ela é importante 
+                        porque simboliza meu sonho de construir um estúdio para artistas. A tela mostra a casa amarela sob um 
+                        céu azul vibrante...</p>
+                      <a href="#" class="btn btn-warning">Ver projeto</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
