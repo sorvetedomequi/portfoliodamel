@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do vincent" class="rounded-circle" width="150" height="150" srcset="">
+
+        <p class="lead">Olá, me chamo Vincent.</p>
+        <h1>Eu faço pinturas</h1>
+        <p>Minha especialidade é a pintura a óleo, com foco em paisagens, retratos e naturezas-mortas. Meus trabalhos são 
+            marcados por cores fortes, pinceladas visíveis e uma expressividade que busca capturar a emoção e a energia da cena.
+            Busco retratar a vida e a natureza de uma forma intensa e pessoal, usando a cor como a principal ferramenta para 
+            transmitir sentimentos.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-warning">pinturas a óleo</p>
+            <p class="badge bg-warning">paisagens</p>
+            <p class="badge bg-warning">retratos</p>
+            <p class="badge bg-warning">naturezas-mortas</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+<!-- projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img 
+                    src="img/projeto-1.png" 
+                    class="card-img-top" 
+                    alt="imagem da casa amarela"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">A Casa Amarela - 1888</h5>
+                      <p class="card-text">Esta pintura é uma representação da casa onde eu morei em Arles. Ela é importante 
+                        porque simboliza meu sonho de construir um estúdio para artistas. A tela mostra a casa amarela sob um 
+                        céu azul vibrante...
+                    </p>
+                      <button 
+                      type="button" 
+                      class="btn btn-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal1"
+                      >Ver projeto</button>
+                    </div>
+                  </div>
+<!-- projeto 2 -->
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img 
+                    src="img/projeto-2.jpg" 
+                    class="card-img-top" 
+                    alt="imagem da casa amarela"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Os Girassois - 1888</h5>
+                      <p class="card-text">Minha série de girassóis é um dos meus projetos mais marcantes. 
+                        Pintei-os em Arles, na França, onde sonhava em criar uma comunidade de artistas. 
+                        Os girassóis, para mim, representavam a luz, o sol e a esperança que eu buscava...
+                    </p>
+                      <button 
+                      type="button" 
+                      class="btn btn-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal2"
+                      >Ver projeto
+                    </button>
+                    </div>
+                  </div>
+<!--projeto 3-->
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img 
+                    src="img/projeto-3.png" 
+                    class="card-img-top" 
+                    alt="imagem da casa amarela"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Noite Estrelada - 1889</h5>
+                      <p class="card-text">Pintei esta obra durante meu tempo no asilo em Saint-Rémy-de-Provence. 
+                        Ela é um dos meus trabalhos mais famosos, e é fácil entender o porquê. 
+                        A tela mostra um céu noturno turbulento, com estrelas e a lua emitindo uma luz...
+                    </p>
+                      <button 
+                      type="button" 
+                      class="btn btn-link"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal3">
+                      Ver projeto
+                    </button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </main>
+<!--modal 1-->
+<div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">A Casa Amarela - 1888</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Esta pintura é uma representação da casa onde eu morei em Arles. 
+            Ela é importante porque simboliza meu sonho de construir um estúdio para artistas. 
+            A tela mostra a casa amarela sob um céu azul vibrante, com a rua e as pessoas ao redor. 
+            Usei cores contrastantes, como o amarelo da casa e o azul do céu, para dar vida e luminosidade à cena. 
+            A Casa Amarela é a prova do meu anseio por pertencimento, comunidade e a criação de um lugar de arte.
+        </p>
+        <p>A cena é um retrato da esperança. As cores brilhantes não são apenas para a beleza, elas expressam a minha crença de que um futuro melhor e mais feliz era possível. 
+            Eu me via lá, trabalhando e vivendo com outros artistas, em um lugar onde a criatividade floresceria. 
+            Essa pintura não é só sobre um prédio, é sobre o meu sonho de ter um lar, um lugar de paz e de união, que, infelizmente, nunca se concretizou da forma que eu esperava.
+        </p>
+        <p>As cores que escolhi foram intencionais. O amarelo da casa não é um amarelo qualquer, é um amarelo solar, caloroso. 
+            O céu azul intenso, quase purpúreo, faz com que o amarelo brilhe ainda mais, como se a casa estivesse emanando luz. 
+            Os traços das nuvens e da rua mostram a vida cotidiana, mas a forma como eu a pintei é cheia de poesia. 
+            A simplicidade da cena esconde a complexidade da minha ambição.
+        </p>
+        <p>Pintar a Casa Amarela foi um ato de fé. Eu estava convencido de que, ao meu lado, outros artistas poderiam se inspirar e criar. 
+            A janela aberta é um convite para o mundo, um sinal de que eu estava pronto para receber. 
+            Embora meu sonho tenha tido um final doloroso, essa pintura é um lembrete do que eu acreditava, do que eu buscava. 
+            É uma obra que, apesar de tudo, permanece como um símbolo de otimismo inabalável.
+        </p>
+        <img
+        src="img/projeto-1.png"
+        class="img-fluid w-100"
+        alt="Imagem da obra A Casa Amarela"
+        />
+      </div>
+      <div class="modal-footer">
+        <a href="https://www.vangoghmuseum.nl/nl">Ver pintura ao vivo</a>
+        <a href="https://www.vangoghmuseum.nl/en/collection/s0032v1962">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 2-->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Os Girassois - 1888</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Minha série de girassóis é um dos meus projetos mais marcantes. Pintei-os em Arles, na França, onde sonhava em criar uma comunidade de artistas. 
+            Os girassóis, para mim, representavam a luz, o sol e a esperança que eu buscava. 
+            Nesta série, explorei a cor amarela em todas as suas variações, desde o amarelo-claro até o ocre, aplicando a tinta em camadas espessas. 
+            Cada girassol, em diferentes estágios de vida, representa a passagem do tempo e a beleza efêmera da natureza
+        </p>
+        <p>Mais do que apenas uma flor, os girassóis se tornaram um símbolo da minha identidade artística. Eu queria mostrar a vitalidade e o calor do sol do sul da França. 
+            Cada pétala e cada semente foram pintadas com uma urgência que reflete minha paixão pela vida, mesmo que ela nem sempre fosse fácil. 
+            É uma série sobre a beleza na sua forma mais simples e um convite para ver o extraordinário no ordinário.
+        </p>
+        <p>O amarelo que usei é mais do que uma cor; é a cor do otimismo, da alegria. Pintei os girassóis com o mesmo fervor com que me dedicava à vida. 
+            Alguns parecem exaustos, com as pétalas caindo, outros estão frescos e cheios de vida, mas todos brilham. 
+            Essa variedade mostra a minha própria complexidade, a luta interna entre a esperança e o desespero. 
+            É a minha forma de dizer que a beleza está em todas as fases da vida, não apenas na juventude.
+        </p>
+        <p>Pintar essas flores foi quase como uma terapia. Eu me perdi no processo, nas pinceladas intensas, na mistura da tinta. 
+            Minha intenção era que as pinturas pudessem iluminar o ambiente onde fossem expostas, para que quem as visse sentisse a mesma alegria que eu sentia ao criá-las. 
+            Elas eram o meu presente para o mundo, um pedaço do sol que eu guardava dentro de mim. 
+            O projeto dos girassóis, junto com a Casa Amarela, era a prova do meu sonho de construir um lar e uma comunidade de artistas.
+        </p>
+        <img
+        src="img/projeto-2.jpg"
+        class="img-fluid w-100"
+        alt="Imagem da obra Os girassois"
+        />
+      </div>
+      <div class="modal-footer">
+        <a href="https://www.vangoghmuseum.nl/nl">Ver pintura ao vivo</a>
+        <a href="https://www.vangoghmuseum.nl/en/collection/s0031v1962">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--modal 3-->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Noite Estrelada - 1889</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Pintei esta obra durante meu tempo no asilo em Saint-Rémy-de-Provence. Ela é um dos meus trabalhos mais famosos, e é fácil entender o porquê. 
+            A tela mostra um céu noturno turbulento, com estrelas e a lua emitindo uma luz amarelada intensa. 
+            A paisagem abaixo, com o vilarejo e os ciprestes em tons escuros, contrasta com o céu, mostrando a dualidade entre a agitação da minha mente e a tranquilidade da natureza. 
+            Usei pinceladas grossas para dar vida ao céu, quase como um redemoinho de emoções.
+        </p>
+        <p>O que as pessoas veem é mais do que um céu noturno; é a minha própria tempestade interior. 
+            As espirais no céu não são apenas nuvens ou estrelas, são a forma como eu sentia a energia cósmica, um movimento constante e poderoso que se ligava à minha alma. 
+            A torre da igreja, tão calma e imponente, parece um ponto de paz em meio a todo o caos, um lembrete do mundo humano no meio da imensidão do universo.
+        </p>
+        <p>Ao pintar, senti que estava capturando a força e a beleza do cosmos. Cada pincelada é carregada de um sentimento de urgência. 
+            Olhar para a tela me lembra da minha busca por algo maior, algo que transcendesse a realidade. 
+            É uma obra sobre a solidão e a esperança, sobre encontrar uma conexão espiritual em meio à noite escura. 
+            A luz das estrelas não é apenas luz, é um farol que guia meu olhar, minha emoção e minha alma.
+        </p>
+        <p>O vilarejo adormecido no fundo contrasta drasticamente com a explosão de luz e cor do céu. Essa justaposição revela o quanto eu me sentia desconectado da vida cotidiana. 
+            Enquanto todos dormiam, eu estava acordado, enfrentando o universo. O cipreste, que muitos veem como um símbolo de luto, para mim representava o oposto: 
+            a vida, um elo de ligação entre a terra e o céu, buscando a mesma energia que eu sentia. 
+            Minha intenção era mostrar que a natureza e a emoção humana estão intimamente ligadas.
+        </p>
+        <img
+        src="img/projeto-3.png"
+        class="img-fluid w-100"
+        alt="Imagem da obra Noite estrelada"
+        />
+      </div>
+      <div class="modal-footer">
+        <a href="https://www.moma.org/">Ver pintura ao vivo</a>
+        <a href="https://www.moma.org/collection/works/79802">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/sorvetedomequi">Github</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por VINCENT WILLEM VAN GOGH</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

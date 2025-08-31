@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Righteous&display=swap');
+
+:root {
+    --cor-principal-: #2c3c51;
+    --cor-secundaria: #ffc107;
+    --cor-destaque: #4b9ce1;
+}
+
+body {
+    font-family: "Merriweather", sans-serif;
+    color: var(--cor-principal-)
+}
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+.lead,
+.btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+a,
+.btn-link:hover {
+  color: var(--cor-principal);
+}
+
+a:hover {
+  color: var(--cor-destaque);
+}
